@@ -1,0 +1,88 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(32, 30, 30);
+    padding: 20px;
+}
+.toggle {
+    margin-top: 6px;
+}
+.toggle a{
+    color: white;
+    position: relative;
+}
+.toggle a:hover {
+    color: whitesmoke;
+}
+.toggle a:hover::after{
+    content: "Login";
+    position: absolute;
+    top: 18px;
+    left: 0;
+    color: rgb(167, 164, 164);
+    
+}
+.header-text {
+    color: white;
+    align-items: center;
+    margin-left: 620px;
+}
+.food-container {
+    width: 1240px;
+    height: auto;
+    background-color: whitesmoke;
+    margin: auto auto auto auto;
+    position: relative;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 8px;
+    overflow: hidden;
+    padding-top: 50px;
+    padding: 50px 80px 100px 80px;
+}
+.each-item {
+    position: relative;
+    background-color: white;
+}
+.item-name {
+    font-size: 18px;
+}
+.item-price {
+    position: absolute;
+    right: 0;
+    top: 240px;
+}
+.item-details {
+    font-size: 8px;
+}
+.plus {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: white;
+    background-color: yellowgreen;
+    font-size: 40px;
+    padding: 0 18px 0 18px;
+    border-top-left-radius: 15px;
+}
+.rating {
+    font-size: 12px;
+    color: orange;
+    padding: 0;
+    margin-bottom: 30px;
+}
+.footer {
+    position: absolute;
+    bottom: 10px;
+    left: 500px;
+    background-color: yellowgreen !important;
+    border-radius: 15px;
+}
+a > .btn {
+    color: white;
+    font-family: "Montserrat";
+    font-size: 18px;
+    border-radius: 16px;
+}
