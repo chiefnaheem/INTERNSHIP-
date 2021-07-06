@@ -86,3 +86,59 @@ a > .btn {
     font-size: 18px;
     border-radius: 16px;
 }
+@media only screen and (max-width:768px) {
+    .food-container{
+        width: 760px;
+        height: 700px;
+    }
+    .container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        overflow: hidden;
+        width: 680px;
+        height: 650px;
+    }
+    .each-item {
+        width: 140px;
+        height: 120px;
+        position: relative;
+    }
+    .item-name {
+        font-size: 8px;
+    }
+    img{
+        width: 35px;
+        height: 35px;
+        margin-bottom: 0;
+    }
+    .item-price {
+        font-size: 8px;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .item-details {
+        font-size: 4px;
+    }
+    .plus {
+        position: absolute;
+        top: 55px;
+        right: 10px;
+        font-size: 7px;
+        padding: 0;
+        border: none;
+    }
+    .item-note{
+        font-size: 7px;
+    }
+    .footer {
+        font-size: 9px;
+        margin: auto;
+    }
+    .rating{
+        position: absolute;
+        top: 50px;
+        right: 20px;
+    }
+
+}
