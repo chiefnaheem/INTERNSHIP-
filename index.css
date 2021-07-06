@@ -68,16 +68,15 @@
     border-top-left-radius: 15px;
 }
 .rating {
-    font-size: 12px;
+    font-size: 14px;
     color: orange;
     padding: 0;
-    margin-bottom: 30px;
 }
 .footer {
     position: absolute;
     bottom: 10px;
     left: 500px;
-    background-color: yellowgreen !important;
+    background-color: rgb(77, 92, 47) !important;
     border-radius: 15px;
 }
 a > .btn {
@@ -88,7 +87,7 @@ a > .btn {
 }
 @media only screen and (max-width:768px) {
     .food-container{
-        width: 760px;
+        width: 900px;
         height: 700px;
     }
     .container {
@@ -96,19 +95,21 @@ a > .btn {
         grid-template-columns: repeat(4, 1fr);
         overflow: hidden;
         width: 680px;
-        height: 650px;
+        height: 680px;
     }
     .each-item {
-        width: 140px;
-        height: 120px;
+        width: 150px;
+        height: 150px;
+        border: 1px solid black;
+        overflow: hidden;
         position: relative;
     }
     .item-name {
         font-size: 8px;
     }
     img{
-        width: 35px;
-        height: 35px;
+        width: 60px;
+        height: 40px;
         margin-bottom: 0;
     }
     .item-price {
@@ -124,9 +125,8 @@ a > .btn {
         position: absolute;
         top: 55px;
         right: 10px;
-        font-size: 7px;
+        font-size: 10px;
         padding: 0;
-        border: none;
     }
     .item-note{
         font-size: 7px;
